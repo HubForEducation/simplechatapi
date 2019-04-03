@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using Newtonsoft.Json;
 
 namespace SimpleChatApi.Controllers
 {
@@ -10,26 +11,25 @@ namespace SimpleChatApi.Controllers
     [ApiController]
     public class MessagesContoller : ControllerBase
     {
-        // GET api/values
         [HttpGet]
         public ActionResult<IEnumerable<string>> Get()
         {
             return new string[] { "value1", "value2" };
         }
-
-        // GET api/values/5
         [HttpGet("{id}")]
         public ActionResult<string> Get(int id)
         {
             return "value";
         }
-        [HttpGet("getmessages")]
-        public ActionResult<string> Get2(int id)
+        [HttpGet("getall")]
+        public ActionResult<string> GetAll()
         {
-            return "value1234 " + id;
-        }
+            using (MessagesContext db = new MessagesContext())
+            {
+                return null;
+            }
 
-        // POST api/values
+        }
         [HttpPost]
         public void Post(int id, string autor, string body)
         {
@@ -42,14 +42,10 @@ namespace SimpleChatApi.Controllers
                 db.SaveChanges();
             }
         }
-
-        // PUT api/values/5
         [HttpPut("{id}")]
         public void Put(int id, [FromBody] string value)
         {
         }
-
-        // DELETE api/values/5
         [HttpDelete("{id}")]
         public void Delete(int id)
         {
