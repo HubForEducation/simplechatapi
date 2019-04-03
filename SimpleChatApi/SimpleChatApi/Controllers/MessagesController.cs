@@ -1,10 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using System.Linq;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using Newtonsoft.Json;
 
 namespace SimpleChatApi.Controllers
 {
@@ -13,7 +9,7 @@ namespace SimpleChatApi.Controllers
     public class MessagesContoller : ControllerBase
     {
         [HttpGet]
-        public SimpleChatApi.Messages[] Get(int id, string autor, string body)
+        public Messages[] Get(int id, string autor, string body)
         {
             using (MessagesContext db = new MessagesContext())
             {
