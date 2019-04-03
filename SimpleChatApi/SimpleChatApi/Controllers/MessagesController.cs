@@ -6,9 +6,9 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace SimpleChatApi.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/messages")]
     [ApiController]
-    public class ValuesController : ControllerBase
+    public class MessagesContoller : ControllerBase
     {
         // GET api/values
         [HttpGet]
@@ -23,11 +23,24 @@ namespace SimpleChatApi.Controllers
         {
             return "value";
         }
+        [HttpGet("getmessages")]
+        public ActionResult<string> Get2(int id)
+        {
+            return "value1234 " + id;
+        }
 
         // POST api/values
         [HttpPost]
-        public void Post([FromBody] string value)
+        public void Post(int id, string autor, string body)
         {
+            using (MessagesContext db = new MessagesContext())
+            {
+                // создаем два объекта User
+                Messages message = new Messages() { id = id, autor = autor, body = body};
+
+                db.messages.Add(message);
+                db.SaveChanges();
+            }
         }
 
         // PUT api/values/5

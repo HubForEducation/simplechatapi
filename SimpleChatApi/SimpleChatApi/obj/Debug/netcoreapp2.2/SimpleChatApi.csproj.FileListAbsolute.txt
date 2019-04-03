@@ -1,0 +1,14 @@
+C:\Users\Anonymous\Desktop\HubForEducation\simplechatapi\SimpleChatApi\SimpleChatApi\bin\Debug\netcoreapp2.2\SimpleChatApi.deps.json
+C:\Users\Anonymous\Desktop\HubForEducation\simplechatapi\SimpleChatApi\SimpleChatApi\bin\Debug\netcoreapp2.2\SimpleChatApi.runtimeconfig.json
+C:\Users\Anonymous\Desktop\HubForEducation\simplechatapi\SimpleChatApi\SimpleChatApi\bin\Debug\netcoreapp2.2\SimpleChatApi.runtimeconfig.dev.json
+C:\Users\Anonymous\Desktop\HubForEducation\simplechatapi\SimpleChatApi\SimpleChatApi\bin\Debug\netcoreapp2.2\SimpleChatApi.dll
+C:\Users\Anonymous\Desktop\HubForEducation\simplechatapi\SimpleChatApi\SimpleChatApi\obj\Debug\netcoreapp2.2\SimpleChatApi.csprojAssemblyReference.cache
+C:\Users\Anonymous\Desktop\HubForEducation\simplechatapi\SimpleChatApi\SimpleChatApi\obj\Debug\netcoreapp2.2\SimpleChatApi.csproj.CoreCompileInputs.cache
+C:\Users\Anonymous\Desktop\HubForEducation\simplechatapi\SimpleChatApi\SimpleChatApi\obj\Debug\netcoreapp2.2\SimpleChatApi.RazorAssemblyInfo.cache
+C:\Users\Anonymous\Desktop\HubForEducation\simplechatapi\SimpleChatApi\SimpleChatApi\obj\Debug\netcoreapp2.2\SimpleChatApi.RazorAssemblyInfo.cs
+C:\Users\Anonymous\Desktop\HubForEducation\simplechatapi\SimpleChatApi\SimpleChatApi\obj\Debug\netcoreapp2.2\SimpleChatApi.AssemblyInfoInputs.cache
+C:\Users\Anonymous\Desktop\HubForEducation\simplechatapi\SimpleChatApi\SimpleChatApi\obj\Debug\netcoreapp2.2\SimpleChatApi.AssemblyInfo.cs
+C:\Users\Anonymous\Desktop\HubForEducation\simplechatapi\SimpleChatApi\SimpleChatApi\obj\Debug\netcoreapp2.2\SimpleChatApi.RazorTargetAssemblyInfo.cache
+C:\Users\Anonymous\Desktop\HubForEducation\simplechatapi\SimpleChatApi\SimpleChatApi\bin\Debug\netcoreapp2.2\SimpleChatApi.pdb
+C:\Users\Anonymous\Desktop\HubForEducation\simplechatapi\SimpleChatApi\SimpleChatApi\obj\Debug\netcoreapp2.2\SimpleChatApi.dll
+C:\Users\Anonymous\Desktop\HubForEducation\simplechatapi\SimpleChatApi\SimpleChatApi\obj\Debug\netcoreapp2.2\SimpleChatApi.pdb
